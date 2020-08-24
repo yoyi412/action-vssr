@@ -17,5 +17,4 @@
 #sed -i '$a src-git mypackages https://github.com/siropboy/mypackages' feeds.conf.default
 #sed -i '$a src-git maxminddb https://github.com/jerrykuku/lua-maxminddb' feeds.conf.default
 #sed -i '$a src-git vssr https://github.com/jerrykuku/luci-app-vssr' feeds.conf.default
-git clone https://github.com/jerrykuku/lua-maxminddb.git  #git lua-maxminddb 依赖
-git clone https://github.com/jerrykuku/luci-app-vssr.git
+sed -i '$a src-git kpr https://github.com/sayhello023/kpr' feeds.conf.default
