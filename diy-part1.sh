@@ -15,4 +15,4 @@
 #sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 #sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 #sed -i '$a src-git mypackages https://github.com/siropboy/mypackages' feeds.conf.default
-sed -i '$a src-git vssr https://github.com/sayhello023/vssr' feeds.conf.default
+#sed -i '$a src-git jerryk https://github.com/jerrykuku/openwrt-package' feeds.conf.default
