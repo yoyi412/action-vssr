@@ -16,4 +16,3 @@
 #sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 #sed -i '$a src-git mypackages https://github.com/siropboy/mypackages' feeds.conf.default
 #sed -i '$a src-git jerryk https://github.com/jerrykuku/openwrt-package' feeds.conf.default
-#sed -i '$a src-git jerryk https://github.com/jerrykuku/luci-app-jd-dailybonus' feeds.conf.default
