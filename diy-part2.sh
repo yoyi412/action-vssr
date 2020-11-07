@@ -10,11 +10,11 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
-git clone -b master https://github.com/jerrykuku/lua-maxminddb package/lua-maxminddb
-git clone -b master https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon-18.06
-git clone -b master https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
-git clone -b master https://github.com/jerrykuku/luci-app-jd-dailybonus package/luci-app-jd-dailybonus
+git clone -b master https://github.com/jerrykuku/lua-maxminddb package/lean/lua-maxminddb
+git clone -b master https://github.com/jerrykuku/luci-app-vssr package/lean/luci-app-vssr
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/lean/luci-theme-argon-18.06
+git clone -b master https://github.com/jerrykuku/luci-app-argon-config package/lean/luci-app-argon-config
+git clone -b master https://github.com/jerrykuku/luci-app-jd-dailybonus package/lean/luci-app-jd-dailybonus
 git clone https://github.com/jerrykuku/node-request.git package/lean/node-request  #京东签到依赖
 git clone -b master https://github.com/vernesong/OpenClash.git package/lean/luci-app-openclash  #openclash出国软件
 git clone https://github.com/frainzy1477/luci-app-clash.git package/lean/luci-app-clash  #clash出国软件
