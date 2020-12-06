@@ -12,6 +12,7 @@
 sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
 git clone -b master https://github.com/jerrykuku/lua-maxminddb package/lean/lua-maxminddb
 git clone -b master https://github.com/jerrykuku/luci-app-vssr package/lean/luci-app-vssr
+git clone -b main https://github.com/XTLS/Xray-core package/lean/Xray-main
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/lean/luci-theme-argon-18.06
 git clone -b master https://github.com/jerrykuku/luci-app-argon-config package/lean/luci-app-argon-config
 git clone -b master https://github.com/jerrykuku/luci-app-jd-dailybonus package/lean/luci-app-jd-dailybonus
