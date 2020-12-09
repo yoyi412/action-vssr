@@ -21,8 +21,8 @@ git clone https://github.com/frainzy1477/luci-app-clash.git package/leung/luci-a
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/leung/luci-app-smartdns  #smartdns DNS加速
 git clone https://github.com/garypang13/luci-app-eqos.git package/leung/luci-app-eqos  #内网IP限速工具
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/leung/openwrt-passwall
-svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall package/leung/luci-app-passwall  #passwall出国软件
-svn co https://github.com/xiaorouji/openwrt-package/trunk/package package/leung/package  #passwall出国软件配套
+#svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall package/leung/luci-app-passwall  #passwall出国软件
+#svn co https://github.com/xiaorouji/openwrt-package/trunk/package package/leung/package  #passwall出国软件配套
 #git clone -b master https://github.com/fw876/helloworld package/luci-app-ssr-plus
 
 # 修改主机名字，把OpenWrt-123修改你喜欢的就行（不能纯数字或者使用中文）
